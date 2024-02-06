@@ -1,0 +1,4 @@
+1.en.stsw-wbc86fwbpp.zip download from st.com
+2.STEVAL-WBC86TX_nvmpatch_1242.memh and STEVAL-WBC86TX_config_120D_BPP.memh is unzip from en.stsw-wbc86fwbpp.zip
+3.en.stsw-wbc86fwbpp-nvm_data.h is use GUI to gen head file for MCU download fw
+4.STEVAL-WBC86TX_nvmpatch_1251.memh  copy RX PP packet to 0x0100 address for easy check.

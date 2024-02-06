@@ -1,12 +1,29 @@
+/**
+  ******************************************************************************
+  * @brief   	: This is auto-generated header file which contains patch and 
+  * 		  configuration data to be programmed into chip.
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2023 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
+
 #ifndef NVM_DATA_H
 #define NVM_DATA_H
-
+#define NVM_TARGET_CHIP_ID 38
 #define NVM_CFG_SIZE 384
 #define NVM_CFG_VERSION_ID 0x1F47
 #define NVM_PATCH_SIZE 12604
 #define NVM_PATCH_VERSION_ID 0x1437
 
-const uint8_t nvm_cfg_data[] = {
+const u8 cfg_data[] = {
 
 	0x47,0x1F,0x00,0x00,0x77,0xF0,0x00,0x00,
 	0x00,0x00,0x00,0x00,0x01,0x00,0x1C,0x44,
@@ -58,7 +75,7 @@ const uint8_t nvm_cfg_data[] = {
 	0x00,0x00,0x00,0x00,0x1C,0xEB,0xA4,0x88,
 };
 
-const uint8_t nvm_patch_data[] = {
+const u8 patch_data[] = {
 
 	0x4E,0x0C,0xB1,0xF3,0xF8,0xB5,0x49,0x48,
 	0x81,0x69,0xC9,0x06,0x04,0xD5,0x81,0x69,
@@ -1637,3 +1654,5 @@ const uint8_t nvm_patch_data[] = {
 	0x01,0x04,0x00,0x00,0x79,0x55,0x04,0x00,
 	0xD2,0x0A,0xF7,0xD1,
 };
+
+#endif

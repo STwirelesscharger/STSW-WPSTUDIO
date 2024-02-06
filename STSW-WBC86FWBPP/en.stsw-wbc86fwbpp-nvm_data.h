@@ -1,12 +1,29 @@
-#ifndef FTP_DATA_H
-#define FTP_DATA_H
+/**
+  ******************************************************************************
+  * @brief   	: This is auto-generated header file which contains patch and 
+  * 		  configuration data to be programmed into chip.
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2023 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
 
-#define FTP_CFG_SIZE 256
-#define FTP_CFG_VERSION_ID 0x120D
-#define FTP_PATCH_SIZE 6372
-#define FTP_PATCH_VERSION_ID 0x1242
+#ifndef NVM_DATA_H
+#define NVM_DATA_H
+#define NVM_TARGET_CHIP_ID 86
+#define NVM_CFG_SIZE 256
+#define NVM_CFG_VERSION_ID 0x120D
+#define NVM_PATCH_SIZE 6372
+#define NVM_PATCH_VERSION_ID 0x1242
 
-const uint8_t ftp_cfg_data[] = {
+const u8 cfg_data[] = {
 
 	0x0D,0x12,0x00,0x02,0x01,0xFF,0xFF,0x00,
 	0x00,0x00,0x00,0x00,0x00,0x00,0x05,0x00,
@@ -42,7 +59,7 @@ const uint8_t ftp_cfg_data[] = {
 	0x05,0xF0,0x00,0x00,0xEB,0x0E,0x66,0xE9,
 };
 
-const uint8_t ftp_patch_data[] = {
+const u8 patch_data[] = {
 
 	0x38,0x06,0xC7,0xF9,0xF8,0xB5,0x50,0x49,
 	0x4E,0x48,0xC8,0x83,0x00,0xF0,0x0C,0xFB,
@@ -842,3 +859,5 @@ const uint8_t ftp_patch_data[] = {
 	0x3C,0x0D,0x05,0x00,0x00,0x00,0x00,0x00,
 	0xE6,0x04,0x74,0x36,
 };
+
+#endif
