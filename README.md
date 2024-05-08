@@ -1,5 +1,7 @@
 # STSW-WPSTUDIO
  ST wireless charge chip tool
+    PC Need Microsoft Visual C++ 2010 x86 and x64 Redistributable package.
+https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
 
 ## Introduction
 'STSW-WBC86FWBPP' Folder is use for STWBC86 wireless charger chip.This is present on the `STEVAL-WBC86TX` board.
